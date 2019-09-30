@@ -1,7 +1,7 @@
 //Exercício de calculadora
 
 let n1 = Number(prompt(`Digite um numero`));
-let op = prompt(`Qual operador?(+, -, /, *, V, **)`);
+let op = prompt(`Qual operador?(+ (soma), -(Subtração), /(Divisão), *(Multiplicação), V(Raiz Quadrada), **(Potenciação))`);
 let n2 = Number(prompt(`Digite outro numero`));
 
 switch (op) {
